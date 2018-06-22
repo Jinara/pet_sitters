@@ -6,3 +6,5 @@ default: &default
 development:
   <<: *default
   database: pet_sitters_development
+  username: postgres
+  port: 5432

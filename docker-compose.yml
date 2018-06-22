@@ -1,0 +1,5 @@
+version: 1
+postgres:
+  image: postgres:10
+  volumes:
+    -./.data/postgres:/var/lib/postgresql/data
