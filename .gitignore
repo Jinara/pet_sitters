@@ -33,3 +33,4 @@ gems/
 #other files
 
 .rspec
+Gemfile.lock
